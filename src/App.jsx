@@ -95,7 +95,7 @@ function App() {
       />}
       {isDelModalOpen && <DelModal currentNote={currentNote} deleteNoteHandler={deleteNoteHandler}/>}
       <button className="add" onClick={() => openModal()}>
-        <img src="./images/edit.svg" alt="" />
+        <img src="images/edit.svg" alt="" />
       </button> 
     </NotesContext.Provider>
   )
